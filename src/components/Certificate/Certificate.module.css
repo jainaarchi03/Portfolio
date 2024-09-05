@@ -1,0 +1,101 @@
+@import "../../vars.css";
+
+.certificate-section {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6); /* Removed black background and used a light background */
+  border-radius: 15px;
+  color: var(--color-text);
+  padding: 50px;
+  margin-top: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  z-index: 1;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 40px; /* Increased font size */
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin: 100px 10% 20px; /* Add margin-top to separate from other content */
+}
+
+.certificate-list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px; /* Increased gap between certificates */
+}
+
+.certificate-item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.certificate-item:hover {
+  background-size: 100% 100%;
+}
+
+.certificate-item h3 {
+  font-size: 25px; /* Increased font size */
+  font-weight: 600;
+  
+}
+
+.certificate-item p {
+  font-size: 20px; /* Increased font size */
+  margin-bottom: 15px; /* Increased margin bottom */
+}
+
+.certificate-item a {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-weight: 600;
+  padding: 12px 24px; /* Increased padding */
+  border-radius: 5px;
+  background-color: var(--color-background);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-item a:hover {
+  background-color: var(--color-primary-hover);
+  color: #fff;
+}
+
+@media screen and (max-width: 830px) {
+  .certificate-section {
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .certificate-list {
+    gap: 30px; /* Adjust gap for smaller screens */
+  }
+
+  .certificate-item {
+    padding: 15px;
+  }
+
+  .certificate-item h3 {
+    font-size: 25px;
+  }
+
+  .certificate-item p {
+    font-size: 18px;
+  }
+
+  .certificate-item a {
+    padding: 10px 20px;
+  }
+}

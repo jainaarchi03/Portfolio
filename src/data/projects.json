@@ -1,0 +1,30 @@
+[
+  {
+    "title": "E-commerce Website",
+    "imageSrc": "projects/E-Commerece.jpg",
+    "description": "This is a project made to learn the React by building an RecipeApp, powered by JavaScript and the Recipe App API",
+    "skills": ["React"],
+    "demo": "https://urway.netlify.app/",
+    "source": "https://www.github.com"
+  },
+  {
+  
+    "title": "Portfolio",
+    "imageSrc": "projects/portfolio.jpg",
+    "description":  "Thrilled to unveil my latest  project! 💻 Dive into the code and witness the power in action ",
+    "skills": ["React"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  
+},
+{
+  
+  "title": "Office Management App",
+  "imageSrc": "projects/office-management-system.webp",
+  "description": "Developed a comprehensive Office Management App using Django to enhance workplace efficiency.",
+  "skills": ["Django", "HTML", "CSS"],
+  "demo": "https://www.example.com",
+  "source": "https://www.github.com"
+}
+ 
+]
